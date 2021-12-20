@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body, html {
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	background-color: hsl(204, 43%, 93%);
+}
+
+* {
+	font-family: "Karla", sans-serif;
+	box-sizing: border-box;
+}
+
+.main-container {
+	background-color: hsl(179, 62%, 43%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 40rem;
+	height: 70%;
+	border-radius: .5rem;
+	display: flex;
+	flex-wrap: wrap;
+	box-shadow: 5px -5px 15px rgb(208, 209, 212), -5px 0px 15px rgb(208, 209, 212);;
+}
+
+.border-container {
+	background-color: rgb(144, 144, 199);
+	padding: 0 2.5rem;
+	width: 100%;
+	padding-top:1.5rem;
+	
+}
+
+.top-container-header {
+	background-color: hsl(0, 0%, 100%);
+	border-top-left-radius: 0.5rem;
+	border-top-right-radius: 0.5rem;
+}
+
+.top-container-header-title {
+	color:hsl(179, 62%, 43%);
+	font-size: 1.5rem;
+}
+
+.subtitle {
+	color: hsl(71, 73%, 54%);
+	font-size: 1.2rem;
+	margin-top: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.message-header {
+	text-overflow: clip;
+	color:hsl(218, 22%, 67%);
+	font-size: 16px;
+	margin: 0.3rem 0;
+}
+
+.low-container {
+	background-color: hsl(218, 22%, 67%);
+	width: 50%;
+	font-size: .8rem;
+	color: white;
+}
+
+.low-container-title {
+	margin-top: 1rem;
+	margin-bottom: 1.5rem;
+	font-size: 1.15rem;
+}
+
+.low-container-header {
+	border-bottom-left-radius: .5rem;
+	background-color: hsl(179, 62%, 43%);
+}
+
+.price-enfatized {
+	font-size: 2rem;
+	font-weight: bold;
+	margin-right: .8rem;
+}
+
+.price-frequency {
+	font-size: 1rem;
+}
+
+.full-acess {
+	font-size: 1rem;
+	margin-top: 1.5rem;
+}
+
+.sign-up-btn {
+	width: 100%;
+	font-size: 1rem;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: hsl(71, 73%, 54%);
+	border: none;
+	border-radius: 0.3rem;
+	color: white;
+	box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.why-us {
+	background-color: #4fbebd;
+}
+
+.why-us span {
+	display: block;
+	margin-bottom: .3rem;
+	font-size: .9rem;
+}
+ .why-us .low-container-title {
+	margin-bottom: 1rem;
+ }
