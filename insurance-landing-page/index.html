@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<title>Insurance Landing Page</title>
+</head>
+<body>
+	<header class="container header">
+		<div class="logo">
+			<img src="./images/logo.svg" alt="Insure">
+		</div>
+		<nav class="main-nav">
+			<ul class="nav-links">
+				<li><a href="#">How we work</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Account</a></li>
+				<li class="view-plans"><a href="#">View Plans</a></li>
+			</ul>
+			<div class="menu-icon">
+				<img class="open-menu" src="./images/icon-hamburger.svg" alt="">
+				<img class="close-menu" src="./images/icon-close.svg" alt="">
+			</div>
+		</nav>
+	</header>
+
+	<!-- div de fundo pra ficar com z-index = -1 e tamanho 25rem? -->
+	<div class="background-hero-section"></div>
+	<!-- main content -> sections: hero-section, "we're different" section, "find out" section -->
+	<main class="container">
+		
+		<!-- hero-section -->
+		<section class="hero-section">
+			<div class="hero-image">
+				<!-- <img src="./images/image-intro-desktop.jpg" alt=""> -->
+			</div>
+			<div class="hero-content content-border">
+				<h1 class="hero-title">Humanizing your insurance.</h1>
+				<p class="hero-call-to-action">
+					Get your insurance coverage easier and faster. We blend our expertise
+					and technology to help you find the plan that's right for you. Ensure you
+					and your loved ones are protected.
+				</p>
+				<a class="dark-link" href="#">View Plans</a>
+			</div>
+		</section>
+
+		<!-- we're differente section -->
+
+		<section aria-labelledby="competitive-edge-title" class="competitive-edge content-border">
+			<h2 id="competitive-edge-title">We're different</h2>
+			<div class="boxes-container">
+				<div class="box snappy-process">
+					<div class="box-image">
+						<img src="./images/icon-snappy-process.svg" alt="">
+					</div>
+					<h3>Snappy Process</h3>
+					<p>
+						Our application process can be completed in
+						minutes, not hours. Don't get stuck filling in
+						tedious forms.
+					</p>
+				</div>
+				<div class="box affordable">
+					<div class="box-image">
+						<img src="./images/icon-affordable-prices.svg" alt="">
+					</div>
+					<h3>Affordable Prices</h3>
+					<p>
+						We don't want you worrying about high monthly
+						costs. Our prices may be low, but we still offer
+						the best coverage possible.
+					</p>
+				</div>
+				<div class="box people-first">
+					<div class="box-image">
+						<img src="./images/icon-people-first.svg" alt="">
+					</div>
+					<h3>People First</h3>
+					<p>
+						Our plans aren't full of conditions and clauses
+						to prevent payouts. We make sure you're covered
+						when you need it.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Find Out More -->
+		<section class="find-out-more" aria-labelledby="find-out-more-title">
+			<div class="title-box">
+				<h2 id="find-out-more-title">Find out more about how we work</h2>
+			</div>
+			<a class="dark-link" href="#">How we work</a>
+		</section>
+	</main>
+
+	<!-- footer -->
+	<footer class="container">
+		<div class="social">
+			<div class="logo">
+				<a href="./index.html">
+					<img src="./images/logo.svg" alt="">
+				</a>
+			</div>
+			<div class="social-icons">
+				<a href="#">
+					<img src="./images/icon-facebook.svg" alt="">
+				</a>
+				<a href="#">
+					<img src="./images/icon-twitter.svg" alt="">
+				</a>
+				<a href="#">
+					<img src="./images/icon-pinterest.svg" alt="">
+				</a>
+				<a href="#">
+					<img src="./images/icon-instagram.svg" alt="">
+				</a>
+			</div>
+		</div>
+		<div class="info">
+			<div class="info-menu our-comapany">
+				<h4>Our company</h4>
+				<nav class="footer-nav">
+					<ul>
+						<li><a href="#">How we work</a></li>
+						<li><a href="#">Why insure?</a></li>
+						<li><a href="#">View Plans</a></li>
+						<li><a href="#">Reviews</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="info-menu help-me">
+				<h4>Help me</h4>
+				<nav class="footer-nav">
+					<ul>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">Terms of use</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Cookies</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="info-menu contact">
+				<h4>Contact</h4>
+				<nav class="footer-nav">
+					<ul>
+						<li><a href="#">Sales</a></li>
+						<li><a href="#">Support</a></li>
+						<li><a href="#">Live chat</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="info-menu others">
+				<h4>Others</h4>
+				<nav class="footer-nav">
+					<ul>
+						<li><a href="#">Careers</a></li>
+						<li><a href="#">Press</a></li>
+						<li><a href="#">Licenses</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</footer>
+	<script src="./script.js"></script>
+</body>
+</html>
