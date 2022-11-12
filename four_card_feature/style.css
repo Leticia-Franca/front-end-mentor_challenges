@@ -64,7 +64,6 @@ header {
 	grid-area: hd;
 	margin: 0 auto;
 	text-align: center;
-	/* background-color: aqua; */
 }
 
 header h2 {
@@ -74,7 +73,6 @@ header h2 {
 .card-1 {
 	grid-area: cd1;
 	border-top: 3px solid hsl(180, 62%, 55%);
-	/* align-self: center; */
 }
 
 .card-2 {
@@ -84,7 +82,6 @@ header h2 {
 .card-3 {
 	grid-area: cd3;
 	border-top: 3px solid hsl(212, 86%, 64%);
-	/* align-self: center; */
 }
 
 .sub-card-1 {
